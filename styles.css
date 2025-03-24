@@ -7,15 +7,178 @@
 header{
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 85px;
 }
 
 .logo_web_bocket{
-    padding: 8px;
+    padding-top: 10px;
     margin-left: 60px;
 }
 
 .nav{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    margin-top: 35px;
+    justify-content: center;
 }
+
+.nav span{
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    color: #c56b30;
+}
+
+.nav span .products-select{
+    text-decoration: none;
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    appearance: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-us button {
+    background: linear-gradient(45deg, #2ecc71, #3498db); 
+    border: none;
+    margin-right: 60px;
+    margin-top: 22px;
+    padding: 12px 34px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-us button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contact-us button:hover {
+    background: linear-gradient(45deg, #3498db, #29b937); 
+}
+
+.home .first-div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #13b539, #52ace8);
+    padding: 8px;
+    color: white;
+}
+
+.home .home-second-div {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #ecf2f8, #b4ebb3);
+    padding: 8px;
+    color: white;
+}
+
+.home-second-div-left {
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    color: #000;
+}
+
+.home-second-div-left h4{
+    font-size: 16px;
+    font-weight: 350;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #13b539;
+    text-shadow: #3af666 1px 1px 10px;
+}
+
+.home-second-div-left div{
+    font-size: 45px;
+    font-weight: 600;
+    color: #000;
+}
+
+.home-second-div-left .div-services {
+    color: #13b539;
+}
+
+.home-second-div-left p {
+    width: 90%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+    font-weight: 100;
+    margin-top: 10px;
+    color: #9c9c9c;
+}
+
+.home-second-div-left-know-more {
+    display: flex;
+}
+
+.home-second-div-left-know-more button{
+    background: linear-gradient(45deg, #2ecc71, #3498db); 
+    border: none;
+    padding: 20px 34px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-second-div-left-know-more button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.home-second-div-left-know-more button:hover {
+    background: linear-gradient(45deg, #3498db, #29b937); 
+}
+
+
+.home-second-div-left-call-us {
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.home-second-div-left-call-us div{
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+
+.home-second-div-right {
+    display: block;
+    margin-right: 60px;
+   
+}
+
+.home-second-div-right img {
+    width: 600px;
+margin-top: 40px;
+}
+
+
+
