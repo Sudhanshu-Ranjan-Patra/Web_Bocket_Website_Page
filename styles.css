@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.logo_web_bocket{
+    padding: 8px;
+    margin-left: 60px;
+}
+
+.nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
