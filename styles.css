@@ -512,3 +512,36 @@ header{
     margin-top: 20px;
 }
 
+/* ///////// */
+
+.choice-container {
+    display: flex;
+    justify-content: center; /* Center the choices horizontally */
+    align-items: center; /* Center the choices vertically */
+    gap: 20px; /* Space between the choices */
+    padding: 20px;
+}
+
+.choice-button {
+    padding: 10px 20px;
+    border: 2px solid #3498db;
+    background-color: white;
+    color: #3498db;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.choice-button:hover, .choice-button.active {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Optional: Style for the triggered content */
+.content-area {
+    text-align: center;
+    padding: 20px;
+}
+.hidden{
+    display: none;
+}
