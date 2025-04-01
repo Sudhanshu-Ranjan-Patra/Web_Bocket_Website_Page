@@ -40,10 +40,12 @@
         <div class="home-second-div">
             <div class="home-second-div-left">
                 <h4>IT Services Designed</h3>
-                <div>Awesome IT</div>
-                <div class="div-services">Services</div>
-                <div>For Your</div>
-                <div>Business</div>                    
+                <div class="awesome">
+                    <div>Awesome IT</div>
+                    <div class="div-services">Services</div>
+                    <div>For Your</div>
+                    <div>Business</div>  
+                </div>                  
                 <p>WebBocket is a leading provider of innovative    
                     IT solutions aimed at helping businesses thrive in the digital age.
                     With a team of highly skilled professionals and a commitment to excellence,
@@ -78,35 +80,41 @@
 
             <div class="wcu-grid">
                 <div class="wcu-grid-item">
-                    <img src="images/grid-img-1.svg" data-hover="images/grid-1.1.svg" alt="grid-img-1">
-                    <h3>Core Features</h3>
-                    <p class="wcu-p">Cutting-edge, custom software with user-centric design, 
-                        scalability, security, and comprehensive support. 
-                        Reliable and innovative solutions for business success.
-                    </p>
+                    <div class="item1">
+                        <img src="images/grid-img-1.svg" data-hover="images/grid-1.1.svg" alt="grid-img-1">
+                        <h3>Core Features</h3>
+                        <p class="wcu-p">Cutting-edge, custom software with user-centric design, 
+                            scalability, security, and comprehensive support. 
+                            Reliable and innovative solutions for business success.
+                        </p>
+                    </div>
                 </div>
                 <div class="wcu-grid-item">
-                    <img src="images/grid-img-2.svg" data-hover="images/grid-1.1.svg" alt="grid-img-2">
-                    <h3>Easy Customizable</h3>
-                    <p class="wcu-p">Flexible software solutions designed for easy customization, 
-                        allowing seamless adjustments to meet specific business needs. 
-                        User-friendly interfaces ensure effortless modifications and efficient scalability.
-                    </p>
+                    <div class="item2">
+                        <img src="images/grid-img-2.svg" data-hover="images/grid-1.1.svg" alt="grid-img-2">
+                        <h3>Easy Customizable</h3>
+                        <p class="wcu-p">Flexible software solutions designed for easy customization, 
+                            allowing seamless adjustments to meet specific business needs. 
+                            User-friendly interfaces ensure effortless modifications and efficient scalability.
+                        </p>
+                        </div>
                 </div>
                 <div class="wcu-grid-item">
-                    <img src="images/grid-img-3.svg" data-hover="images/grid-1.1.svg" alt="grid-img-3">
-                    <h3>Fast Support</h3>
-                    <p class="wcu-p">Rapid and reliable support services, ensuring quick resolutions and minimal 
-                        downtime. Our dedicated team is available around the clock to address your 
-                        needs promptly and efficiently.
-                    </p>
+                    <div class="item3">
+                        <img src="images/grid-img-3.svg" data-hover="images/grid-1.1.svg" alt="grid-img-3">
+                        <h3>Fast Support</h3>
+                        <p class="wcu-p">Rapid and reliable support services, ensuring quick resolutions and minimal 
+                            downtime. Our dedicated team is available around the clock to address your 
+                            needs promptly and efficiently.
+                        </p>
+                    </div>
                 </div>
             </div>
     </section>
 
     <section class="our-services">
         <p class="our-services-p">Our Services</p>
-        <h1>Check What Services We Provide</h1>
+        <h1 class="os-heading-h1">Check What Services We Provide</h1>
         
         <h5>Empowering businesses with cutting-edge technology, 
             our comprehensive software solutions encompass development, 
@@ -185,15 +193,15 @@
         <div class="counter-section">
             <div class="counter-div">
                 <div class="counter-item">
-                    <h1>50+</h1>
+                    <h1 id="pf">0</h1>
                     <p>Project Finished</p>
                 </div>
                 <div class="counter-item">
-                    <h1>40+</h1>
+                    <h1 id="hc">0</h1>
                     <p>Happy Clients</p>
                 </div>
                 <div class="counter-item">
-                    <h1>30+</h1>
+                    <h1 id="team">0</h1>
                     <p>Team</p>
                 </div>
                 <div class="counter-item">
@@ -216,22 +224,64 @@
         </h5>
 
         <div class="choice-container">
-            <button class="choice-button" data-target="option1">Option 1</button>
-            <button class="choice-button" data-target="option2">Option 2</button>
+            <button id="btn-1" class="choice-button" data-target="option1">Hostel Management System</button>
+            <button id="btn-2"class="choice-button" data-target="option2">Attendance Tracking System</button>
         </div>
     
         <div class="content-area">
             <div id="option1" class="hidden">
-                <p>This is the content for Option 1.</p>
-                <p>You triggered Option 1.</p>
+                <div class="option1-left">
+                    <img src="images/Our_Products_img-1.svg" alt="">
+                </div>
+                <div class="option1-right">
+                    <h1>Hostel Management System</h1>
+                    <p>
+                        Our Hostel Management System provides a comprehensive solution for managing 
+                        all aspects of hostel operations. From student accommodation to facilities management, 
+                        our system offers the following key features:
+                    </p>
+                    <div>
+                        <ul class="custom-bullet-list">
+                            <li>Centralized student accommodation management.</li>
+                            <li>Efficient room allocation and vacancy tracking.</li>
+                            <li>Integrated billing and payment processing.</li>
+                            <li>Attendance monitoring and reporting.</li>
+                            <li>Visitor management and security features.</li>
+                        </ul>
+                    </div>
+                    <button>Know More</button>
+                </div>
             </div>
             <div id="option2" class="hidden">
-                <p>This is the content for Option 2.</p>
-                <p>You triggered Option 2.</p>
+                <div class="option2-left">
+                    <img src="images/Our_Products_img-2.png" alt="">
+                </div>
+                <div class="option2-right">
+                    <h1>Attendance Management System</h1>
+                    <p>
+                        Our Attendance Management System simplifies the process of tracking and 
+                        managing attendance for organizations. Key features include:
+                    </p>
+                    <div>
+                        <ul class="custom-bullet-list">
+                            <li>Automated attendance recording and monitoring.</li>
+                            <li>Flexible attendance tracking options, including biometric and RFID.</li>
+                            <li>Customizable attendance reports and analytics.</li>
+                            <li>Integration with payroll and HR systems for seamless processing.</li>
+                            <li>User-friendly interface for easy navigation and management.</li>
+                        </ul>
+                    </div>
+                    <button>Know More</button>
+                </div>
             </div>
         </div>
         </section>
         
+
+        <section class="testimonials" >
+
+
+        </section>
         <script src="script.js"></script>
 </body>
 </html>
