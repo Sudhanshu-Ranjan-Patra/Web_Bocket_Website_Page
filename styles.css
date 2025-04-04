@@ -827,4 +827,5 @@ header{
 .testimonials {
     background-image: url();
     background-attachment: fixed;
+    height: 100vh;
 }
