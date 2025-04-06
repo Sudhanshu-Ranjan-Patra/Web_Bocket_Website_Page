@@ -825,8 +825,86 @@ header{
 }
 
 .testimonials {
-    background-image: url();
+    background-image: url(./images/background-img.jpg);
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-    height: 100vh;
+    width: 100%;
+    padding: 50px 20px; /* Add padding for spacing */
+    text-align: center; /* Center-align text */
 }
 
+.testimonials .our-services-p {
+    color: #25c54a; /* Green color for the heading */
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.testimonials h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff; /* Darker color for the main heading */
+    margin-bottom: 20px;
+}
+
+.testimonials h5 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #d0d0d0; /* Gray color for the description */
+    line-height: 1.8;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Testimonials Grid */
+.testimonials-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between grid items */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.testimonials-grid-item {
+    background-color: #fff; /* White background for each item */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    width: 300px; /* Fixed width for each item */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonials-grid-item:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.testimonials-grid-item img {
+    width: 80px; /* Size of the image */
+    height: 80px;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px;
+}
+
+.testimonials-grid-item p {
+    font-size: 14px;
+    color: #555; /* Gray color for text */
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.testimonials-grid-item h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; /* Darker color for the name */
+    margin-bottom: 5px;
+}
+
+.testimonials-grid-item p:last-of-type {
+    font-size: 14px;
+    color: #888; /* Lighter gray for the designation */
+    font-style: italic;
+}
