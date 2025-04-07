@@ -89,3 +89,26 @@ myElement2.addEventListener('click', function() {
     myElement1.classList.remove('btn-style');
 });
 
+
+//////////////////////////////////////////////
+document.addEventListener('DOMContentLoaded', function() {
+    const animatedElements = document.querySelectorAll('.home-second-div'); // Select all elements you want to animate on scroll
+
+    function checkSlide() {
+        animatedElements.forEach(element => {
+            const elementTop = element.getBoundingClientRect().top;
+            const elementBottom = element.getBoundingClientRect().bottom;
+
+            // Check if the element is within the viewport (with a bit of offset)
+            const isVisible = (elementTop < window.innerHeight * 0.8) && (elementBottom >= 0);
+
+            if (isVisible && !element.classList.contains('.awesome')) {
+                element.classList.add('.awesome');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', checkSlide);
+    window.addEventListener('resize', checkSlide); // Also check on window resize
+    checkSlide(); // Initial check on page load
+});
