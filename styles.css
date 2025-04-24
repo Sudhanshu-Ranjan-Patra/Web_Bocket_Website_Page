@@ -830,15 +830,8 @@ header{
     background-position: center;
     background-attachment: fixed;
     width: 100%;
-    padding: 50px 20px; /* Add padding for spacing */
-    text-align: center; /* Center-align text */
-}
-
-.testimonials .our-services-p {
-    color: #25c54a; /* Green color for the heading */
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    padding: 50px 80px; /* Add padding for spacing */
+     
 }
 
 .testimonials h1 {
@@ -848,31 +841,31 @@ header{
     margin-bottom: 20px;
 }
 
-.testimonials h5 {
-    font-size: 16px;
+
+.testimonials .testimonials-p{
+    font-size: 15px;
     font-weight: 300;
-    color: #d0d0d0; /* Gray color for the description */
+    color: #f8f4f4;
     line-height: 1.8;
+    text-align: start;
     margin-bottom: 40px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 
 /* Testimonials Grid */
 .testimonials-grid {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Space between grid items */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap; 
+    gap: 40px;
 }
 
 .testimonials-grid-item {
-    background-color: #fff; /* White background for each item */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     padding: 20px;
-    width: 300px; /* Fixed width for each item */
+    width: 300px; 
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
