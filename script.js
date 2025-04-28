@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const isVisible = (elementTop < window.innerHeight * 0.8) && (elementBottom >= 0);
 
             if (isVisible && !element.classList.contains('.awesome')) {
-                element.classList.add('.awesome');
+                element.classList.add('awesome');
             }
         });
     }
